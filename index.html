@@ -283,7 +283,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/02/24/Ubuntu新手推荐设置/" itemprop="url">the-first-post</a></h1>
+                <a class="post-title-link" href="/2018/02/24/Ubuntu新手推荐设置/" itemprop="url">Ubuntu新手推荐配置</a></h1>
         
 
         <div class="post-meta">
@@ -342,33 +342,37 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update &amp;&amp; sudo apt upgrade</span><br></pre></td></tr></table></figure>
 <p>​    update很快就完事儿了，但是upgrade要更新个四五百条。假如软件源服务器没设置好的话……那速度慢得……跟百度云限速似的。</p>
 <p>​    再往下就该是装软件了，终于到这一步了啊。前期装软件apt命令绝对是最常用的。我个人先推荐安装几个软件：</p>
-<ol>
+<ul>
 <li>新立得包管理器。非常厉害的一个软件，Ubuntu必装。管理你下载的安装包。安装命令</li>
-</ol>
+</ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install synaptic</span><br></pre></td></tr></table></figure>
-<ol>
+<ul>
 <li>文泉驿字体。文泉驿字体是开源的字体，挺好看的，很适合作为系统默认字体。安装命令</li>
-</ol>
+</ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install ttf-wqy-zenhei</span><br></pre></td></tr></table></figure>
-<ol>
+<ul>
 <li>Unity Tweak Tool 这个是用来设置桌面的，绝对比自带的强大的得多。可以在这里面设置文泉驿微米黑为默认字体。安装命令</li>
-</ol>
+</ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install unity-tweak-tool</span><br></pre></td></tr></table></figure>
-<ol>
+<ul>
 <li>GDebi。这个是用来安装下面要推荐的软件的deb包的。尽管Ubuntu自带的软件市场也能做到，但是软件市场安装deb包不太稳定，有时候玩命安装也安装不上，和Ubuntu早期使用的这个软件相比差得很多。安装命令</li>
-</ol>
+</ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install gdebi</span><br></pre></td></tr></table></figure>
-<ol>
+<ul>
 <li>WPS。我相信WPS你使用起来比Ubuntu自带的LibreOffice得心应手得多。这个就没安装命令了，因为是闭源的。用deb包安装。下载地址<a href="http://community.wps.cn/download/" target="_blank" rel="noopener">http://community.wps.cn/download/</a> 选对应的版本下载。下载了之后右键用GDebi打开。<em>顺带，WPS打开之后会提示系统字体缺失，无视即可，缺失的字体假如不是专业人员的话是很难去使用的。</em>Word打开之后首页默认是Docer，一堆广告，实际上那个页面右下角有设置，可以设置它不自动弹出。</li>
 <li>Crossover。Wine的商业版，可以运行很多Windows上的软件，功能非常强悍。最推崇用它安装TM2013，因为QQ没有适配Linux，而用wine配置QQ会出现各种各样的问题，而办公特化的QQ——TM2013则是可以很轻易的用wine安装。下载地址<a href="https://www.codeweavers.com/products/crossover-linux" target="_blank" rel="noopener">https://www.codeweavers.com/products/crossover-linux</a>，支持正版。</li>
+</ul>
+<ol>
 <li>Chrome浏览器。尽管自带的Firefox已经非常好用了，但我还是推荐安装Chrome浏览器，这是因为Chrome有一项黑科技——ARChon，这项黑科技可以让你的Chrome浏览器运行安卓APP。黑科技我们以后再说，先安装Chrome。现在只有64位。<a href="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb" target="_blank" rel="noopener">https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</a></li>
 <li>App Grid。App Grid 是一款轻量级的Ubuntu软件中心，可安装闭源软件。比自带软件中心强，体积还小得多。安装命令有三条，按顺序运行</li>
 </ol>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:appgrid/stable</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install appgrid</span><br></pre></td></tr></table></figure>
 <p>最后，到系统设置\软件更新里面把appgrid的源停用了，因为appgrid的源的功能就只有安装它一个软件而已。</p>
-<ol>
+<ul>
 <li>Ubuntu额外的版权受限程序。听名字就知道它是干吗用的。用App Grid安装即可。</li>
 <li>KWPlayer。利用酷我音乐资源的开源在线音乐播放器。安装方法直接看开发者说明:<a href="https://github.com/LiuLang/kwplayer" target="_blank" rel="noopener">https://github.com/LiuLang/kwplayer</a></li>
+</ul>
+<ol>
 <li>网易云音乐。怎么说呢，这个据说还有一些bug，不过喜欢网易云音乐的话就安装呗，我倒是没试出来有什么明显bug。下载地址<a href="http://music.163.com/#/download" target="_blank" rel="noopener">http://music.163.com/#/download</a>，用GDebi安装。</li>
 </ol>
 
