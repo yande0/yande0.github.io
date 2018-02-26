@@ -110,7 +110,7 @@
 <meta property="og:site_name" content="Yande0">
 <meta property="og:description" content="​    以前因为win7老是卡欢迎，所以换了Ubuntu，用了之后觉得还不错。不过尽管Ubuntu是Linux中对新手友好的系统，但新手还是要多花点功夫才能适应。这次我来讲讲Ubuntu新手怎么做让新装的Ubuntu更好操作一点。​    假如你是笔记本电脑连WiFi的用户，你肯定会发现一个问题——电脑连不上WiFi。这是因为笔记本上的无线网卡驱动不是开源的，Ubuntu不能把它集成到自家系统里">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-02-25T23:50:02.581Z">
+<meta property="og:updated_time" content="2018-02-26T00:16:09.591Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubuntu新手推荐配置">
 <meta name="twitter:description" content="​    以前因为win7老是卡欢迎，所以换了Ubuntu，用了之后觉得还不错。不过尽管Ubuntu是Linux中对新手友好的系统，但新手还是要多花点功夫才能适应。这次我来讲讲Ubuntu新手怎么做让新装的Ubuntu更好操作一点。​    假如你是笔记本电脑连WiFi的用户，你肯定会发现一个问题——电脑连不上WiFi。这是因为笔记本上的无线网卡驱动不是开源的，Ubuntu不能把它集成到自家系统里">
@@ -357,12 +357,10 @@
 <ul>
 <li>WPS。我相信WPS你使用起来比Ubuntu自带的LibreOffice得心应手得多。这个就没安装命令了，因为是闭源的。用deb包安装。下载地址<a href="http://community.wps.cn/download/" target="_blank" rel="noopener">http://community.wps.cn/download/</a> 选对应的版本下载。下载了之后右键用GDebi打开。<em>顺带，WPS打开之后会提示系统字体缺失，无视即可，缺失的字体假如不是专业人员的话是很难去使用的。</em>Word打开之后首页默认是Docer，一堆广告，实际上那个页面右下角有设置，可以设置它不自动弹出。</li>
 <li>Crossover。Wine的商业版，可以运行很多Windows上的软件，功能非常强悍。最推崇用它安装TM2013，因为QQ没有适配Linux，而用wine配置QQ会出现各种各样的问题，而办公特化的QQ——TM2013则是可以很轻易的用wine安装。下载地址<a href="https://www.codeweavers.com/products/crossover-linux" target="_blank" rel="noopener">https://www.codeweavers.com/products/crossover-linux</a>，支持正版。</li>
-</ul>
-<ol>
 <li>Chrome浏览器。尽管自带的Firefox已经非常好用了，但我还是推荐安装Chrome浏览器，这是因为Chrome有一项黑科技——ARChon，这项黑科技可以让你的Chrome浏览器运行安卓APP。黑科技我们以后再说，先安装Chrome。现在只有64位。<a href="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb" target="_blank" rel="noopener">https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</a></li>
-<li>App Grid。App Grid 是一款轻量级的Ubuntu软件中心，可安装闭源软件。比自带软件中心强，体积还小得多。安装命令有三条，按顺序运行</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:appgrid/stable</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install appgrid</span><br></pre></td></tr></table></figure>
+<li>App Grid。App Grid 是一款轻量级的Ubuntu软件中心，可安装闭源软件。比自带软件中心强，体积还小得多。安装命令有三条，按顺序运行<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:appgrid/stable</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install appgrid</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
 <p>​    最后，到系统设置\软件更新里面把appgrid的源停用了，因为appgrid的源的功能就只有安装它一个软件而已。</p>
 <ul>
 <li>Ubuntu额外的版权受限程序。听名字就知道它是干吗用的。用App Grid安装即可。</li>
