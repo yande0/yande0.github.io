@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[test-audio]]></title>
+    <url>%2F2018%2F03%2F04%2Ftest-audio%2F</url>
+    <content type="text"><![CDATA[本帖仅供测试这个插件效果如何 var ap = new APlayer({ element: document.getElementById("aplayer0"), narrow: false, autoplay: false, showlrc: 0, music: { title: "Anime Song Orchestra III", author: "Melodic Taste", url: "https://raw.githubusercontent.com/yande0/yande00/master/baijin.mp3", pic: "https://github.com/yande0/yande00/raw/master/baijin.jpg", } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
+      <categories>
+        <category>音频</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[关于git上CRLF的错误及解决办法]]></title>
     <url>%2F2018%2F03%2F02%2F%E5%85%B3%E4%BA%8Egit%E4%B8%8ACRLF%E7%9A%84%E9%94%99%E8%AF%AF%E5%8F%8A%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%2F</url>
     <content type="text"><![CDATA[相信用过git的Windows用户都见过这个warning 12warning: LF will be replaced by CRLFThe file will have its original line endings in your working directory. 看着不舒服，一出现一大溜。不过用Linux的git的应该没见过，区别就在此。 原因呢，就是Linux和Windows下的换行符不一样，Linux下是LF，Windows下是CRLF。用Windows保存文本的时候换行符自动转为CRLF，才会出现这种情况。 解决方法也就一行代码的事儿，禁止git自动转换换行符 1git config --global core.autocrlf false]]></content>
