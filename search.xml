@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F04%2F20%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[中小学实验室免责声明]]></title>
     <url>%2F2018%2F03%2F15%2Flab%2F</url>
     <content type="text"><![CDATA[一、实验前必须预习实验内容，明确目的要求，掌握基本原理，熟悉方法步骤。二、进入实验室，要以组按预先固定的位置就座，要保持室内安静。三、室内一切陈列（如挂图、标本）和设施不准随意触动更不许移位。四、认真听教师讲解仪器性能、实验目的、步骤操作方法和注意事项。五、实验时先清点仪器、药品是否齐全、完好，如有短缺或损坏，应立即报告教师，补充完整。六、实验要遵守操作规程，出现问题，请教教师解决，不要随便处置。实验中要细心观察实验现象，认真做好记录，如实填写实验报告单。七、各组不准互相串行和借用物品。八、按规定数量取用药品，注意节约。九、严禁将食品带入实验室，更不准在实验室内吃东西。十、实验要谨慎，如有意外事故（如着火、中毒、爆炸、触电等）发生，切莫惊慌失措，应立即切断火源、电源，报告教师妥善处理。十一、实验中如果损坏仪器，要如实向教师声明，履行登记手续，以便酌情处理。十二、实验用毕的废液、废纸等，要倒在指定地方，绝不允许随地倾倒。十三、实验完毕，各组要认真清洗与整理好本组物品，所用器材要按规定放回原处，并向教师报告清点结果，经同意后方可离室。十四、室内物品一律不得私自带出室外，不准做指定之外的实验。十五、要建设文明实验室，爱护实验桌凳，不许在桌凳上乱写或刀刻，不准在墙壁上乱写乱画。实验完毕后，由教师指定的班次认真做好整理和清洁工作，保持实验室整齐干净。十六、由于违反上述规定而造成的损失，由当事学生自行承担。]]></content>
